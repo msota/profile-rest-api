@@ -94,3 +94,9 @@ ENV/
 
 # mkdocs documentation
 /site
+
+# mypy
+.mypy_cache/
+
+*.sqlite3
+.vagrant
