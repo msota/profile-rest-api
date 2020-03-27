@@ -77,7 +77,7 @@ class HelloViewSet(viewsets.ViewSet):
             'Provides more functionally with less code.'
         ]
 
-        return Response({'message': 'Hello!', 'a_viewset}': a_viewset})
+        return Response({'message': 'Hello!', 'a_viewset': a_viewset})
 
     def create(self, request):
         """Create a new hello message."""
